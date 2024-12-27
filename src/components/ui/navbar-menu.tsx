@@ -109,13 +109,22 @@ export const ProductItem = ({
   );
 };
 
-export const HoveredLink = ({ children, ...rest }: any) => {
+export const HoveredLink = ({ 
+  children, 
+  href,
+  ...rest 
+}: React.AnchorHTMLAttributes<HTMLAnchorElement> & { 
+  children: React.ReactNode;
+  href: string;
+}) => {
   return (
-    <Link
-      {...rest}
-      className="text-neutral-700 dark:text-neutral-200 hover:text-black "
-    >
-      {children}
+    <Link href={href}>
+      <span
+        {...rest}
+        className="text-neutral-700 dark:text-neutral-200 hover:text-black"
+      >
+        {children}
+      </span>
     </Link>
   );
 };

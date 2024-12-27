@@ -13,7 +13,7 @@ function AutomationSection() {
               Automate Everything
             </h2>
             <p className='text-xl text-gray-600 max-w-lg'>
-              Now that CopyCat learned how to do all your tasks, you'll be able to run any of your workflows at any time. Error-free and lightning-fast.
+              Now that CopyCat learned how to do all your tasks, you&apos;ll be able to run any of your workflows at any time. Error-free and lightning-fast.
             </p>
           </div>
 

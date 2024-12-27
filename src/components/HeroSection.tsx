@@ -1,7 +1,6 @@
 "use client";
 import React from 'react'
 import { Button } from './ui/moving-border'
-import Image from 'next/image'
 import Link from 'next/link'
 import { FadeUp } from './ui/fade-up'
 
@@ -19,7 +18,7 @@ function HeroSection() {
         
         <FadeUp delay={0.1}>
           <p className='mt-4 text-base sm:text-lg text-neutral-600 max-w-xl mx-auto px-4 sm:px-0'>
-            CopyCat lets you show your computer how to do something once, and then it'll be able to do it forever
+            CopyCat lets you show your computer how to do something once, and then it&apos;ll be able to do it forever
           </p>
         </FadeUp>
         

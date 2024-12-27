@@ -40,7 +40,7 @@ function FAQSection() {
 
       {/* Title */}
       <h2 className="text-4xl md:text-5xl font-bold text-[#0a0a29] text-center mb-16">
-        We've got you covered
+        We&apos;ve got you covered
       </h2>
 
       {/* FAQ Items */}
@@ -63,7 +63,7 @@ function FAQSection() {
             {openIndex === index && (
               <div className="pb-6">
                 <p className="text-gray-600">
-                  {faq.answer}
+                  {faq.answer.replace(/'/g, "&apos;")}
                 </p>
               </div>
             )}
