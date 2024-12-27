@@ -30,7 +30,7 @@ The application will be available at `http://localhost:3000`
 
 Deploy your own copy of this template with a single click:
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/yourusername/copycat)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/aniketpratapsingh/saas_landing_page.git)
 
 1. Click the "Deploy" button above
 2. Connect your GitHub account
